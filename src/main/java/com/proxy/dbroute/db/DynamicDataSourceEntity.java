@@ -9,7 +9,7 @@ public class DynamicDataSourceEntity {
 
     public static final String DEFAULE_SOURSE = null;
 
-    private static final ThreadLocal<String> local = new ThreadLocal<>();
+    private static final ThreadLocal<String> local = new ThreadLocal<String>();
 
     private DynamicDataSourceEntity() {
     }

@@ -8,7 +8,6 @@ import com.proxy.Person;
  */
 public class Girl implements Person {
 
-    @Override
     public void findLove() {
         System.out.println("女孩的要求：高富帅、有才华");
     }
